@@ -179,7 +179,7 @@ alter table blogs modify content text CHARACTER SET utf8mb4 COLLATE ut
 
 三者都表示删除，但是三者有一些差别：
 
-| delete   | truncate                                 | drop                           |
+| 删除方式   | delete                                 | truncate                           | drop  
 | -------- | ---------------------------------------- | ------------------------------ | -------------------------------------------------- |
 | 类型     | 属于 DML                                 | 属于 DDL                       | 属于 DDL                                           |
 | 回滚     | 可回滚                                   | 不可回滚                       | 不可回滚                                           |
